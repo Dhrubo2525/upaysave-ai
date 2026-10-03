@@ -1,0 +1,19 @@
+{
+  "label": "Synthetic simulation \u2014 not real customer evidence",
+  "method": "Per-user six-month projection. Treatment applies an illustrative 8% reduction to synthetic shopping expenses; it is not observed customer behavior.",
+  "sample_users": 250,
+  "control": {
+    "goal_feasibility_pct": 88.4,
+    "goals_achieved": 221,
+    "projected_savings_per_user": 7473.57,
+    "users_with_positive_capacity_pct": 92.8
+  },
+  "treatment": {
+    "goal_feasibility_pct": 88.8,
+    "goals_achieved": 222,
+    "projected_savings_per_user": 7661.99,
+    "users_with_positive_capacity_pct": 95.2
+  },
+  "mean_simulated_monthly_capacity_change": 372.33,
+  "caveat": "This is an illustrative generated-data scenario, not an experiment and not a causal effect."
+}
